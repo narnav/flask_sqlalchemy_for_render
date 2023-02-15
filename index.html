@@ -13,7 +13,7 @@
     <button onclick="addData()">Add</button>
     <div id="display"></div>
     <script>
-        const MY_SERVER="http://127.0.0.1:5000/users"
+        const MY_SERVER="https://seccc.onrender.com/users"
         const addData=async()=>{
           axios.post(MY_SERVER,{"username":username.value, "email":email.value})
         }
